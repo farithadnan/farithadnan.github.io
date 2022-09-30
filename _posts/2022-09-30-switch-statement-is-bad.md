@@ -1,12 +1,12 @@
 ---
 title: Switch statement is bad
-author: Farith Adnan
+author: Farith
 date: 2022-09-30 14:57:00 +0800
 categories: [programming, blog]
 tags: [switch-statement]
 ---
 
-### Switch Statements
+## **Switch Statements**
 While reading to an [article](https://betterprogramming.pub/the-art-of-refactoring-5-tips-to-write-better-code-3bc1f6f7689) by Estefania Garcia Gallardo that explains about the ways of refactoring code, I learnt that **the switch statements** is not a good things to have when it comes to a clean code. 
 
 Below shows a quote that been taken from the article that explains why the **switch statement** is bad:
@@ -45,10 +45,10 @@ Based on the reason expressed by the author above, it clearly shows that the swi
 	}
 ```
 
-### Switch Alternatives 
+## **Switch Alternatives** 
 Thriving for a clean code is a must have goals for every developer, thus, instead of using switch statements why not try using **Object Literal** and **Polymorphism** instead to boost maintainability of the codebase.
 
-#### **Object Literal** 
+### Object Literal 
 By implementing Object literal instead of switch statement it can enable modification process much easier and easy to maintain. 
 
 Below shows the snippet of object literal:
@@ -70,14 +70,14 @@ Below shows the snippet of object literal:
 	
 ```
 
-Explanation:
+**Explanation:**
 
 | Element            | Details                                                                                                        |
 | ------------------ | -------------------------------------------------------------------------------------------------------------- |
 | Heroes Object      | Outside of the function, holds a values for user option, it can be easily maintain and or added a new values.  |
 | getHeroes() method | Replace the switch statement, by handling user request, the OR symbols represent default value similar to switch statements                                                                                                                            |
 
-#### **Polymorphism** 
+### Polymorphism
 By implementing Polymorphism instead of switch statement it can enable modification process much easier and easy to maintain. 
 
 Below shows the snippet of Polymorphism:
@@ -125,7 +125,7 @@ Below shows the snippet of Polymorphism:
 	heroes1.position();  // Result: 1
 ```
 
-Explanation:
+**Explanation:**
 
 | Element            | Details                                                                                                        |
 | ------------------ | -------------------------------------------------------------------------------------------------------------- |
