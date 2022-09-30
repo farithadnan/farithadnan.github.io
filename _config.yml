@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive tech blog created by a software developer for presenting knowledge and experiences.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://blog.farithadnan.net/'
+url: 'https://farithadnan.github.io'
 
 github:
   username: farithadnan            # change to your github username
