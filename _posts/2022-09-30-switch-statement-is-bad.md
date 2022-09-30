@@ -1,25 +1,21 @@
 ---
 title: Switch statement is bad
-author: <author-1>
+author: Farith Adnan
 date: 2022-09-30 14:57:00 +0800
 categories: [programming, blog]
 tags: [switch-statement]
 ---
 
-#### Switch Statements
+### Switch Statements
 While reading to an [article](https://betterprogramming.pub/the-art-of-refactoring-5-tips-to-write-better-code-3bc1f6f7689) by Estefania Garcia Gallardo that explains about the ways of refactoring code, I learnt that **the switch statements** is not a good things to have when it comes to a clean code. 
 
 Below shows a quote that been taken from the article that explains why the **switch statement** is bad:
-```ad-info
-title: Based on the article
+
+> It has been stated that, switch statements are very verbose (expressed in more words than are needed), hard to maintain and hard to debug.
+{: .prompt-info }
 
 
-It has been stated that, switch statements are very verbose (expressed in more words than are needed), hard to maintain and hard to debug. 
-```
-
-Based on the reason expressed by the author above, it clearly shows that the switch statements is not suitable for a larger codebase. 
-
-Try imagining a switch statements with many case clauses in code snippet below, it can be quite frightening to maintain right? Whenever we want to add a new case we have to manually add each case and break statement which prone to human error and also violates the [[SOLID]] principles. 
+Based on the reason expressed by the author above, it clearly shows that the switch statements is not suitable for a larger codebase. Try imagining a switch statements with many case clauses in code snippet below, it can be quite frightening to maintain right? Whenever we want to add a new case we have to manually add each case and break statement which prone to human error and also violates the SOLID principles. 
 
 ```js
 	function getHeroes(position) {
@@ -49,10 +45,11 @@ Try imagining a switch statements with many case clauses in code snippet below, 
 	}
 ```
 
-#### Switch Alternatives 
+### Switch Alternatives 
 Thriving for a clean code is a must have goals for every developer, thus, instead of using switch statements why not try using **Object Literal** and **Polymorphism** instead to boost maintainability of the codebase.
 
-**Object Literal** - By implementing Object literal instead of switch statement it can enable modification process much easier and easy to maintain. 
+#### **Object Literal** 
+By implementing Object literal instead of switch statement it can enable modification process much easier and easy to maintain. 
 
 Below shows the snippet of object literal:
 ```js
@@ -80,7 +77,8 @@ Explanation:
 | Heroes Object      | Outside of the function, holds a values for user option, it can be easily maintain and or added a new values.  |
 | getHeroes() method | Replace the switch statement, by handling user request, the OR symbols represent default value similar to switch statements                                                                                                                            |
 
-**Polymorphism** - By implementing Polymorphism instead of switch statement it can enable modification process much easier and easy to maintain. 
+#### **Polymorphism** 
+By implementing Polymorphism instead of switch statement it can enable modification process much easier and easy to maintain. 
 
 Below shows the snippet of Polymorphism:
 
