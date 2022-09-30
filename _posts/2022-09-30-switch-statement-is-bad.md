@@ -1,6 +1,6 @@
 ---
 title: Switch statement is bad
-author: Farith
+author: farith
 date: 2022-09-30 14:57:00 +0800
 categories: [programming, blog]
 tags: [switch-statement]
