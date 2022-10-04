@@ -37,6 +37,7 @@ tags: [programming, networking, api]
 - **Microservice Load Balancing** - API Gateway always keeps track of request that being send to different microservices. It will balances the load between the nodes to increase efficiency and make sure the application is always okay.
 
 - **Rate Limiting** - API Gateway monitors traffic coming from all sources and make sure the system is not flooded with request by limiting API request from the clients. 
+
 ---
 # Sources:
 1. [What is API gateway? - IBM](https://www.ibm.com/cloud/blog/api-gateway)
