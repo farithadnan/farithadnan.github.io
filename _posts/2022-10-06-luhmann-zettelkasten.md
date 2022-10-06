@@ -18,7 +18,7 @@ As you see can there's an alternation occur within the sequence of the note labe
 
 
 ## Side Note
-> I first learnt about Luhmann's Zettelkasten is from this [Obsidian's forum](https://forum.obsidian.md/t/one-vault-vs-multiple-vaults/1445) when trying to built My First Obsidian Setup.
+> I first learnt about Luhmann's Zettelkasten from this [Obsidian's forum](https://forum.obsidian.md/t/one-vault-vs-multiple-vaults/1445) when trying to built My First Obsidian Setup.
 {: .prompt-info }
 
 
