@@ -1,8 +1,8 @@
 ---
 title: API Gateway
 date: 2022-10-04 15:59:00 +0800
-categories: [Blogging, Developer]
-tags: [programming, networking, api]
+categories: [Blogging, Technology, Software Development]
+tags: [programming, api]
 ---
 
 ## Definition

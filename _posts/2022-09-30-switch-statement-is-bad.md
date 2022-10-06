@@ -1,7 +1,7 @@
 ---
 title: Switch statement is bad
 date: 2022-09-30 14:57:00 +0800
-categories: [Blogging, Developer]
+categories: [Blogging, Technology, Software Development]
 tags: [programming]
 ---
 
