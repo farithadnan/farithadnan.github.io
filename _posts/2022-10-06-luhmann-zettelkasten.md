@@ -10,6 +10,9 @@ This system uses a collection of notes that has *hypertext* or I would like to c
 
 By using Zettelkasten, connecting or referencing other note is possible and make the note taking experiences better. Connecting between notes will help your brain to be a better observer and expand your knowledge.
 
+Below shows a numbering system for Luhman's Zettelkasten:
+![Luhmann's numbering system for his Zettelkasten]("posts/20221006/luhman-zettelkasten-numbering-system.png"){: width="1086" height="542"}
+
 Luhmann wanted his Zettelkasten to have be able to go from one note to another, in a much faster way, thus, he created this reference point in a note with number and alphabet.
 
 Focus on the note number 1 and 2 as shown in the picture above, these two has different number to represent the different between them. But in case you want to add new additional note for the note number 1, you can assign the new note with **1a** and **1b** for the next new note in sequence. Plus, if you want to add a new additional note for the note number **1a**, you can assign the new note with **1a1** and **1a2** for the next new note in sequence.
