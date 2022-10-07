@@ -9,6 +9,7 @@ tags: [programming, design principle]
 - Inversion of Control (IoC) is a **Design Principle** that provide guidelines for classes to be **loosely coupled** and therefore easy to test and maintain.
 - Classes that have minimum dependences is a good thing and considered to be one of the major principles of Software Engineer.
 - IoC refers to **transferring the control of its object, dependencies from the main program to a framework or container**.
+- IoC **provide a callback/function (which controls reaction/action)** to an external handler/controller, **instead of executing the action ourself (invert or redirect control to external handler/controller)** - [Source](https://stackoverflow.com/a/3140/14163916).
 
 ## IoC popular implementation
 
@@ -20,7 +21,12 @@ Inversion of Control and Dependency Injection are often used interchangeably.
 
 ## Dependency Injection (DI)
 
-**Dependency Injection is a technique that allows objects to be separated from another object they rely on**. DI suggested instead on using instantiation of other object, Use one of these injection method instead:
+**Dependency Injection is a technique that give objects its instance variable or what it needs (dependencies)**. DI can also be implement using a framework, the most popular one is [Spring Framework](https://spring.io/projects/spring-framework) but it's not necessary to have for doing DI.
+
+> Instantiating and passing object (dependencies) explicitly is just as good and injection as injection with framework. - [Source](https://stackoverflow.com/a/140655/14163916).
+{: .prompt-info }
+
+For DI there's several ways of injecting dependencies into an object. Below shows an example some of those injection methods:
 
 - Constructor Injection
 - Setter Injection
@@ -44,3 +50,5 @@ Inversion of Control and Dependency Injection are often used interchangeably.
 ## Sources
 
 1. [What is inversion control?](https://www.educative.io/answers/what-is-inversion-of-control)
+2. [Discussion about inversion control on Stack Overflow](https://stackoverflow.com/questions/3058/what-is-inversion-of-control#3140)
+3. [Dependency Injection made easy](https://www.jamesshore.com/v2/blog/2006/dependency-injection-demystified)
