@@ -11,7 +11,7 @@ This system uses a collection of notes that has *hypertext* or I would like to c
 By using Zettelkasten, connecting or referencing other note is possible and make the note taking experiences better. Connecting between notes will help your brain to be a better observer and expand your knowledge.
 
 Below shows a numbering system for Luhman's Zettelkasten:
-![Luhmann's numbering system for his Zettelkasten]("posts/20221006/luhman-zettelkasten-numbering-system.png"){: width="1086" height="542"}
+![Luhmann's numbering system for his Zettelkasten](posts/20221006/luhman-zettelkasten-numbering-system.png){: width="1086" height="542"}
 
 Luhmann wanted his Zettelkasten to have be able to go from one note to another, in a much faster way, thus, he created this reference point in a note with number and alphabet.
 
