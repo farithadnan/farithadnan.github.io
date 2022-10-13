@@ -164,5 +164,5 @@ In Jasmine spec, allow us to make expectation for the Assert phase much easier b
 
 ## Sources
 
-1. [What is cookies?, Kaspersky](https://www.kaspersky.com/resource-center/definitions/cookies)
-2. [Whar are cookies?, tutorialspoint](https://www.tutorialspoint.com/what-are-cookies)
+1. [Test suites with Jasmine](https://testing-angular.com/test-suites-with-jasmine/#structure-of-a-test) 
+2. [Getting started with Jasmine](https://jasmine.github.io/tutorials/your_first_suite) 
