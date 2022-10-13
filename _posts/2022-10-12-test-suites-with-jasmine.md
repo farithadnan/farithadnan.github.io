@@ -9,13 +9,12 @@ tags: [browser, angular, testing]
 
 What is Jasmine? - Jasmine is a test framework provides for JavaScript based framework like Angular, AngularJS and Node.js. In Angular, every newly created project are ships with Jasmine. Jasmine helps developer write and execute unit test and integration test.
 
-```ad-info
-title: Jasmine consist three important features:
+Jasmine consist three important features:
 
-- Library with classes for building tests.
-- Test execution engine
-- Reporting engine to generate results for the test execution.
-```
+> - Library with classes for building tests.
+> - Test execution engine
+> - Reporting engine to generate results for the test execution.
+{: .prompt-info }
 
 ## Test Suites & Specs
 
