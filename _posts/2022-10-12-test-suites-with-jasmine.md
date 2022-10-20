@@ -2,7 +2,7 @@
 title: Test Suites With Jasmine
 date: 2022-10-12 18:00:00 +0800
 categories: [Blogging, Technology, Software Development]
-tags: [browser, angular, testing]
+tags: [programming, browser, angular, testing]
 ---
 
 ## Definition
