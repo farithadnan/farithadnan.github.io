@@ -19,7 +19,6 @@ tags: [design pattern]
 
 ```mermaid
 classDiagram
-
 CarBrand --|> BcMnWx
 CarBrand --|> Ferrory
 CarBrand --|> Buggady
