@@ -18,14 +18,14 @@ tags: [design pattern]
 - Based on the diagram below, there's a three car's brand classes e.g. `BcMnWx`, `Ferrory` and `Buggady` these three classes are the subclasses of `CarBrand` superclass. The `CarBrand` superclass has three methods `getName()`, `getTotalDoors()` and `getPrice()`.  `BcMnWx`, `Ferrory` and `Buggady` subclasses have implemented all its superclass's methods.
 
 ```mermaid
-classDiagram
-CarBrand --|> BcMnWx
-CarBrand --|> Ferrory
-CarBrand --|> Buggady
-CarBrand : GetName()
-CarBrand : GetTotalDoors()
-CarBrand : GetPrice()
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
+
+
 
 > **Requirements:** User will be ask to select the car's brand, after user have selected the car's brand, application will process user's input and fetch the required information and display it to the user.
 
