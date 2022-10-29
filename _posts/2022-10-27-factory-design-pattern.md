@@ -25,7 +25,6 @@ CarBrand --|> Buggady
 CarBrand : GetName()
 CarBrand : GetTotalDoors()
 CarBrand : GetPrice()
-
 ```
 
 > **Requirements:** User will be ask to select the car's brand, after user have selected the car's brand, application will process user's input and fetch the required information and display it to the user.
@@ -134,7 +133,6 @@ namespace FactoryDesignPattern
 - Based on the input value of the selected car's brand, instance of the three sub-classes e.g. `BcMnWx`, `Ferrory` and `Buggady` implementation classes can be created.
 
 ```c#
-
 // Program.cs
 using System;
 
@@ -216,9 +214,8 @@ namespace FactoryDesignPattern
 - Unlike before, instead of exposing the object `CarBrand` creation process logic directly in `Program.cs`, this time `CarFactory.cs` will be created and this class is responsible to store all the object `CarBrand` creation process logic  or instantiation process and will act as mediary or abstraction for the classes that want to create and fetch car brand object details.
 
 > **Important:** Please be aware that the below snippet violates [Open-Closed Principle (OCP)](/posts/solid-ocp/) where you still have to add a new `if-else` condition block if there's new car brand to be added.
->
-```c#
 
+```c#
 namespace FactoryDesignPattern
 {
  class CarFactory
@@ -248,7 +245,6 @@ namespace FactoryDesignPattern
 - Now, `Program.cs` can refer to `CarFactory.cs` to create car's brand object, below is the example of the implementation.
 
 ```c#
-
 // Program.cs
 using System;
 
