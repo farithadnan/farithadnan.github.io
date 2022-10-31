@@ -287,7 +287,7 @@ namespace FactoryDesignPattern
 
 - **Tightly Coupled** between the factory `CarFactory.cs` and sub-classes (`BcMnWx`, `Ferrory` and `Buggady`).
 - This implementation violates [Open-Closed Principle (OCP)](/posts/solid-ocp/), where user have to add new `if-else` condition block each time there is new car brand. This occurred at `CarFactory.cs`.
-- To overcome both of these problem within implementation of Factory Design Pattern refer **[Factory Method Design Pattern](/#)**.
+- To overcome both of these problem within implementation of Factory Design Pattern refer **[Factory Method Design Pattern](/posts/factory-method-design-pattern/)**.
 
 ## When to use Factory Design Pattern
 
