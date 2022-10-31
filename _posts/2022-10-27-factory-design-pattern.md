@@ -6,7 +6,7 @@ tags: [design pattern]
 ---
 
 
->Factory Design Pattern is not similar with [Factory Method Design Pattern](/#) and the term can't be used interchangeably.
+>Factory Design Pattern is not similar with [Factory Method Design Pattern](/posts/factory-method-design-pattern/) and the term can't be used interchangeably.
 {: .prompt-info }
 > **Factory Design Pattern** means "a class/object that are responsible to create another class/object", basically it's like a "**factory that creates new product**". The **factory class contain a method  that are responsible creating and returning a different object based on user's input**.
 >
