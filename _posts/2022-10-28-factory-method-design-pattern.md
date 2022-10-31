@@ -6,10 +6,8 @@ tags: [design pattern]
 ---
 
 
-> Factory Method Design Pattern is not similar with [[Factory Design Pattern]] and the term can't be used interchangeably. 
+> Factory Method Design Pattern is not similar with [[Factory Design Pattern]] and the term can't be used interchangeably.
 {: .prompt-info }
-
-
 > **Factory Method Design Pattern** means "define a interface/abstract class that used for creating an object/class, but let the subclasses decide which class to instantiate". This pattern is needed when we want to create an object/class without exposing the creation logic to the client.
 
 ## Real-time example
