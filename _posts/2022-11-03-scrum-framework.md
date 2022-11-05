@@ -110,7 +110,7 @@ if the sprint has incomplete issues, Issues in this context represent work items
 
 Below shows a simplify representation of a sprint and a brief explanation about it:
 
-![Image of Sprint](/posts/20221103/sprint.jpg)
+![Image of Sprint](/posts/20221103/sprint.png)
 
 - **Each set of user stories/work items consist their own cycle workflow which includes planning, building, testing and reviewing**, after this cycle is completed we will have a potential shippable product.
 - For the next section will explain more details about the Sprint's cycle workflow.
@@ -119,7 +119,7 @@ Below shows a simplify representation of a sprint and a brief explanation about 
 
 Below shows a simplify representation of the workflow and a brief explanations about it:
 
-![Image of Sprint](/posts/20221103/scrum-workflow.jpg)
+![Image of Sprint](/posts/20221103/scrum-workflow.png)
 
 ### Product Backlog
 
