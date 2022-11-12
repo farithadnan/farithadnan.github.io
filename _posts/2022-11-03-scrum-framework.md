@@ -6,18 +6,18 @@ tags: [agile-framework, agile]
 ---
 ## What is Scrum
 
-> **Scrum** is an Agile project management framework that help teams to develop, deliver and maintain complex products/projects.
+> **Scrum** is an [[Agile Methodology |Agile]] project management framework that help teams to develop, deliver and maintain complex products/projects.
 
-- Scrum and Agile can't be use interchangeably. Because **Agile is a set of principles** while **Scrum is the framework that uses Agile to get the work done.**
-- With Scrum, it encourage the teams to think in an Agile's way and implement Agile's principle within the interaction and their works.
+- Scrum and [[Agile Methodology |Agile]] can't be use interchangeably. Because **[[Agile Methodology |Agile]] is a set of principles** while **Scrum is the framework that uses [[Agile Methodology |Agile]] to get the work done.**
+- With Scrum, it encourage the teams to think in an [[Agile Methodology |Agile]]'s way and implement [[Agile Methodology |Agile]]'s principle within the interaction and their works.
 - Can be implement for any field and not just for software development/engineering field only.
 
 ## Why Scrum
 
 - Software always changes (Goals, requirement and etc.) and scrum **embrace those changes** which will help teams to deliver  client's requirement much effectively.
-- With scrum, project is built in a series of iteration called Sprints which will have a small sections of the big complex product/project to be work on, thus makes handling the project much easier, deliver high quality output faster and flexibility to adapt changes.
-- Scrum transparency and its iterative nature helps reduce risk and cost, hasten the development and get fast feedback from clients.
-- Every sprint has goals/milestone, and this will give teams tangible target and will keep them more focus and motivated.
+- With scrum, project is built in a series of iteration called [[Scrum Framework#What is Sprints |Sprints]] which will have a set of thing to do when developing the application, thus makes handling the project much easier and able to deliver high quality output faster with flexibility to adapt changes.
+- Scrum transparency and its iterative nature helps reduce risk, cost, hasten the development and get a fast feedback from the end user.
+- Every sprint has their own goals/milestone, and this will give teams tangible target and will keep them more focus and motivated.
 
 ## Scrum vs Waterfall
 
@@ -25,11 +25,11 @@ tags: [agile-framework, agile]
 
 ## Key Roles in Scrum
 
-There is **three key roles for the scrum roles**, and this roles is necessary for scrum. The roles include **Product Owner, Scrum Master and Team.** Below shows a brief explanation for each role.
+There is **three key roles for the scrum roles**, and this roles is necessary for scrum. The roles include **Product Owner, Scrum Master and Team.** Below shows a brief explanation about each of these role.
 
 ### 1. Product Owner
 
-- Person that responsible defining features for the project.
+- Person that responsible defining the features of the project.
 - Client/end-user
 
 ### 2. Scrum Master
@@ -42,6 +42,14 @@ There is **three key roles for the scrum roles**, and this roles is necessary fo
 
 - Developer, designer and etc.
 - Building the product.
+
+## Work Items
+
+- User Stories (features); non technical description on what user want  and this is from user's perspective. Example:
+  - *"As a {type of user}, I want {goal} so that I {receive benefit} "*
+  - *"As a customer, I want to be able to create an account so that I can see my previous purchases."*
+- Tasks
+- Bugs/Issues
 
 ## Key Artifacts/Documents in Scrum
 
@@ -76,12 +84,12 @@ Can think of it as a **meeting or discussion between team members.**
 
 ### 2. Daily Scrum
 
-- Discuss about what they have completed based on previous meeting, what they're working on and anything that need helps from other, this is to smoothen the development process.  
+- Discuss about the work they have done, what they will be working on today and anything that need helps from other, this is to smoothen the development process.  
 
 ### 3. Sprint Review and Retrospective
 
 - Happen at the end of the sprint.
-- **Sprint Review:** Teams demonstrate completed product to the product owner and
+- **Sprint Review:** Teams demonstrate complete product to the product owner
 - **Retrospective:** Discuss what process they can improve going forward.
 
 ## What is Sprints
@@ -89,7 +97,7 @@ Can think of it as a **meeting or discussion between team members.**
 > **Sprints** is a time-boxed period for the scrum teams to works a set amount of work. Teams forecast to complete a set of user stories or other work items during a fixed time duration
 
 - Sprints make project become more manageable. Allow to deliver high quality output faster and give more flexible to adapt to change.
-- Sprint contains a set of committed user stories/work items from the backlog that will be work within the sprint until the completion.
+- Sprint contains a set of committed user stories/work items from the sprint backlog that will be work within the sprint until the completion.
 - Daily scrum will also be done within the sprint phase, this is to ensure the development progress runs smoothly.
 - Every sprint will have its own sprint goal which is defined by the product owner. Sprint considered success if the sprint goal is achieved.
 - Sprint period usually takes about 1-3 weeks each.
@@ -100,20 +108,11 @@ if the sprint has incomplete issues, Issues in this context represent work items
 - Move the issue to the backlog
 - Move the issue to a future sprint
 
-### Work Items
-
-- User Stories (features); non technical description on what user want  and this is from user's perspective. Example:
-  - *"As a {type of user}, I want {goal} so that I {receive benefit} "*
-  - *"As a customer, I want to be able to create an account so that I can see my previous purchases."*
-- Tasks
-- Bugs/Issues
-
 Below shows a simplify representation of a sprint and a brief explanation about it:
 
 ![Image of Sprint](/posts/20221103/sprint.png)
 
-- **Each set of user stories/work items consist their own cycle workflow which includes planning, building, testing and reviewing**, after this cycle is completed we will have a potential shippable product.
-- For the next section will explain more details about the Sprint's cycle workflow.
+- **Each set of user stories/work items consist their own cycle workflow (planning, building, testing and reviewing)**, after this cycle is completed we will have a potential shippable product. For the next section will explain more details about the Sprint's cycle workflow.
 
 ## Scrum Workflow (Inside Sprint)
 
@@ -128,8 +127,8 @@ Below shows a simplify representation of the workflow and a brief explanations a
 
 ### Sprint Planning
 
-- Sprint planning is where product owner. scrum master and the team discuss about the top priorities user stories/work items to determine what user stories/work items can go into the next sprint.
-- After determine what user stories/work items should be put into the next sprint, this phase will generate sprint  backlog as its output.
+- Sprint planning is where the product owner. scrum master and the team discuss about the top priorities user stories/work items to determine what user stories/work items will go into the next sprint.
+- After determine what the user stories/work items should be put into the next sprint, this phase will generate sprint  backlog as its output.
 
 ### Sprint Backlog
 
@@ -150,10 +149,10 @@ Below shows a simplify representation of the workflow and a brief explanations a
 ### Sprint Review & Retrospective
 
 - At the end of the sprint, Sprint Review and Retrospective meetings occur.
-- **Sprint Review:** Teams demonstrate completed product to the product owner and
+- **Sprint Review:** Teams demonstrate completed product to the product owner
 - **Retrospective:** Discuss what process they can improve going forward.
 
-This workflow will be repeated for each sprint
+This workflow will be repeated for each sprint.
 
 ---
 
