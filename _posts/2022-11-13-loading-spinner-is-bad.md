@@ -4,13 +4,6 @@ date: 2022-11-13 18:00:00 +0800
 categories: [Blogging, Technology, Software Development]
 tags: [programming]
 ---
-
->During the development of my Angular project, I stumble upon a problem that are related to the loader spinner. For my project the loader spinner will popup only if there's a [HTTP Request] which took more than one second to load its data and for this to work I have to use Angular's HTTP interceptors to fetch request. In my project I also have a generic dialog/modal services that can be use by any components in the application. On the 'reusability' standpoint it look great but when it comes to implementing your application to work alongside the loading spinner it can become quite hard to execute.
->
->I got an issue whenever the dialog/modal is  popup to the screen the loading spinner will also got loaded as well, the loading spinner will appear  overlapping behind the dialog for a while before disappearing, when I tried to work on the solution for this issue, I stumble into an article ([[Stop Using A Loading Spinner, There’s Something Better | by Suleiman Ali Shakir | UX Collective](https://uxdesign.cc/stop-using-a-loading-spinner-theres-something-better-d186194f771e)]) that explain about why the loading spinner is bad for user's experiences.  
-{: .prompt-info }
-
-
 ## Why loading spinner is a no-no
 
 Below is my own interpretation on why the loading spinner is bad for the user's experiences. It maybe look cool with all the animating affect provided by the loading spinner but it actually  have its own disadvantages as well.
@@ -28,4 +21,4 @@ Below is my own interpretation on why the loading spinner is bad for the user's 
 
 ## Sources
 
-1. [Stop Using A Loading Spinner, There’s Something Better | by Suleiman Ali Shakir | UX Collective](https://uxdesign.cc/stop-using-a-loading-spinner-theres-something-better-d186194f771e)
+1. [Stop Using A Loading Spinner There’s Something Better by Suleiman Ali Shakir, UX Collective](https://uxdesign.cc/stop-using-a-loading-spinner-theres-something-better-d186194f771e)

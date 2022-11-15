@@ -16,7 +16,7 @@ tags: [agile-framework, agile]
 ## Why Scrum
 
 - Software always changes (Goals, requirement and etc.) and scrum **embrace those changes** which will help teams to deliver  client's requirement much effectively.
-- With scrum, project is built in a series of iteration called [[Scrum Framework#What is Sprints |Sprints]] which will have a set of thing to do when developing the application, thus makes handling the project much easier and able to deliver high quality output faster with flexibility to adapt changes.
+- With scrum, project is built in a series of iteration called Sprints which will have a set of thing to do when developing the application, thus makes handling the project much easier and able to deliver high quality output faster with flexibility to adapt changes.
 - Scrum transparency and its iterative nature helps reduce risk, cost, hasten the development and get a fast feedback from the end user.
 - Every sprint has their own goals/milestone, and this will give teams tangible target and will keep them more focus and motivated.
 
