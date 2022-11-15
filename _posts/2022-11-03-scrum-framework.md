@@ -6,10 +6,11 @@ tags: [agile-framework, agile]
 ---
 ## What is Scrum
 
-> **Scrum** is an [[Agile Methodology |Agile]] project management framework that help teams to develop, deliver and maintain complex products/projects.
+> **Scrum** is an Agile project management framework that help teams to develop, deliver and maintain complex products/projects.
+{: .prompt-info }
 
-- Scrum and [[Agile Methodology |Agile]] can't be use interchangeably. Because **[[Agile Methodology |Agile]] is a set of principles** while **Scrum is the framework that uses [[Agile Methodology |Agile]] to get the work done.**
-- With Scrum, it encourage the teams to think in an [[Agile Methodology |Agile]]'s way and implement [[Agile Methodology |Agile]]'s principle within the interaction and their works.
+- Scrum and Agile can't be use interchangeably. Because **Agile is a set of principles** while **Scrum is the framework that uses Agile to get the work done.**
+- With Scrum, it encourage the teams to think in an Agile's way and implement Agile's principle within the interaction and their works.
 - Can be implement for any field and not just for software development/engineering field only.
 
 ## Why Scrum
@@ -95,6 +96,7 @@ Can think of it as a **meeting or discussion between team members.**
 ## What is Sprints
 
 > **Sprints** is a time-boxed period for the scrum teams to works a set amount of work. Teams forecast to complete a set of user stories or other work items during a fixed time duration
+{: .prompt-info }
 
 - Sprints make project become more manageable. Allow to deliver high quality output faster and give more flexible to adapt to change.
 - Sprint contains a set of committed user stories/work items from the sprint backlog that will be work within the sprint until the completion.
