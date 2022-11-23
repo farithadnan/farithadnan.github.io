@@ -1,6 +1,6 @@
 ---
 title: Optimizing VS Code
-date: 2022-09-30 14:57:00 +0800
+date: 2022-11-22 18:57:00 +0800
 categories: [Blogging, Technology, VS Code]
 tags: [application]
 ---
