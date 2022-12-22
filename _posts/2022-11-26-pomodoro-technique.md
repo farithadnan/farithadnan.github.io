@@ -25,7 +25,7 @@ Depends on the task you're doing sometimes 25 minutes is not enough, you can cha
 ## Prevent Planning Fallacy/Cognitive Bias with Pomodoro
 
 > When planning out our future projects, most of us fall victim to the [planning fallacy](https://en.wikipedia.org/wiki/Planning_fallacy) — our tendency to vastly underestimate the time needed to complete future tasks, even when we know similar tasks have taken longer in the past.Your present self imagines [your future self](https://blog.doist.com/present-self-vs-future-self/?itm_campaign=pomodoro&itm_medium=referral&itm_source=productivity_methods_guides) operating under entirely different circumstances and time restraints. - Todoist
-{: .prompt-note }
+{: .prompt-info }
 
 Other scientists, in “[An Economic Model](https://scholar.princeton.edu/sites/default/files/planning_fallacy_0.pdf) of The Planning Fallacy” (2008), say:
 
